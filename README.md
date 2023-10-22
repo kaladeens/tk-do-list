@@ -1,4 +1,5 @@
-# To Do List for me to have 
+# To do list for me to have 
+Genuinely just want to have a todo list where I can have calender view 
 
 ## Features
 
