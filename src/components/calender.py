@@ -5,7 +5,10 @@
 """
 
 from tkinter import *
+from page import Page
 
-class calanderFrame(Frame):
-    def __init__(self, parent, controller):
-        pass
+class calanderFrame(Page):
+    def __init__(self,*args,**kwargs):
+        Page.__init__(self, *args, **kwargs)
+        label = Label(self, text="Calender")
+        label.pack(side="top", fill="both", expand=True)

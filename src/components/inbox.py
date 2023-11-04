@@ -4,7 +4,11 @@
 """
 
 from tkinter import *
+from page import Page
+class inboxFrame(Page):
+    def __init__(self, *args, **kwargs):
+        Page.__init__(self, *args, **kwargs)
+        label = Label(self, text="Inbox")
+        label.pack(side="top", fill="both", expand=True)
 
-class inboxFrame(Frame):
-    def __init__(self, parent, controller):
-        pass
+       
