@@ -5,9 +5,9 @@
 """
 
 from tkinter import *
-from page import Page
+from components import Page
 
-class calanderFrame(Page):
+class CalenderFrame(Page):
     def __init__(self,*args,**kwargs):
         Page.__init__(self, *args, **kwargs)
         label = Label(self, text="Calender")

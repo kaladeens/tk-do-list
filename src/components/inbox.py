@@ -4,8 +4,9 @@
 """
 
 from tkinter import *
-from page import Page
-class inboxFrame(Page):
+from components import Page
+
+class InboxFrame(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         label = Label(self, text="Inbox")

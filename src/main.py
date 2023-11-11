@@ -1,9 +1,5 @@
 from tkinter import *
+from components import App
 
-root = Tk()
-root.title("To Do App")
-
-mainframe = 
-
-
-root.mainloop()
+app = App()
+app.mainloop()
